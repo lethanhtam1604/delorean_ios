@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JanCodeNumberIPadKeyView" customModule="Delorean" customModuleProvider="target">
+            <connections>
+                <outlet property="cBtn" destination="DEF-Zi-Rsr" id="3Ly-cr-Hrh"/>
+                <outlet property="confirmBtn" destination="ocz-nF-qTd" id="112-qV-tK2"/>
+                <outlet property="delBtn" destination="dWf-KY-4yN" id="bD5-RU-z3h"/>
+                <outlet property="eightBtn" destination="4fI-B1-Moy" id="meI-jV-Mza"/>
+                <outlet property="fiveBtn" destination="EPF-LN-Ge9" id="5p3-U8-d2g"/>
+                <outlet property="fourBtn" destination="LMu-dd-bfN" id="0LZ-Kg-MnD"/>
+                <outlet property="nineBtn" destination="GcT-ht-AyP" id="HHZ-UA-SpM"/>
+                <outlet property="oneBtn" destination="Roi-aG-kQf" id="2W3-Od-5jJ"/>
+                <outlet property="sevenBtn" destination="IYi-mj-euC" id="q98-WO-es0"/>
+                <outlet property="sixBtn" destination="b22-Xr-0oP" id="t7S-Zo-ist"/>
+                <outlet property="textLabel" destination="as6-nT-T6a" id="Sut-m5-Qtw"/>
+                <outlet property="threeBtn" destination="MqJ-cS-f0n" id="iq4-p7-soF"/>
+                <outlet property="twoBtn" destination="pvI-dV-r0D" id="as1-YX-sRe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zeroBtn" destination="c8F-7z-cNe" id="tfm-Gb-5q8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="296" height="379"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QoK-v8-ghJ">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as6-nT-T6a">
+                            <frame key="frameInset" minX="18" minY="18" width="260" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYi-mj-euC" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="18" minY="69" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="7">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="Du1-3j-ha3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fI-B1-Moy" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="108" minY="69" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="8">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="pu4-qt-Zga"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcT-ht-AyP" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="198" minY="69" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="9">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="rQM-yX-RDW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMu-dd-bfN" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="18" minY="129" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="4">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="r8x-yP-t66"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-LN-Ge9" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="108" minY="129" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="5">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="X4B-7M-A11"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b22-Xr-0oP" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="198" minY="129" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="6">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="sdO-wd-ufF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Roi-aG-kQf" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="18" minY="189" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="1">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="cZI-HD-qrc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvI-dV-r0D" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="108" minY="189" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="2">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="f3S-Nz-DA9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqJ-cS-f0n" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="198" minY="189" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="3">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="aOP-4W-fzk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DEF-Zi-Rsr" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="18" minY="249" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="C">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clearDisplay:" destination="-1" eventType="touchUpInside" id="KMQ-gF-sQf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8F-7z-cNe" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="108" minY="249" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="0">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapNumber:" destination="-1" eventType="touchUpInside" id="n2K-Nj-PN6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWf-KY-4yN" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="198" minY="249" width="80" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.55177217300000003" blue="0.36555289330000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="DEL">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="didDelTap:" destination="-1" eventType="touchUpInside" id="9Fm-Zv-KWG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocz-nF-qTd" customClass="BFPaperButton">
+                            <frame key="frameInset" minX="61" minY="315" width="175" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="Confirm">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="confirmBtnClicked:" destination="-1" eventType="touchUpInside" id="YZ2-jD-kRq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.88233173080000005" green="0.88233173080000005" blue="0.88233173080000005" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="QoK-v8-ghJ" secondAttribute="bottom" id="AAT-Ig-ruL"/>
+                <constraint firstItem="QoK-v8-ghJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="H4S-LD-792"/>
+                <constraint firstItem="QoK-v8-ghJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ehZ-1X-xgB"/>
+                <constraint firstAttribute="trailing" secondItem="QoK-v8-ghJ" secondAttribute="trailing" id="ruE-Ud-J50"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="53" y="91.5"/>
+        </view>
+    </objects>
+</document>

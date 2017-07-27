@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChooseLanguageView" customModule="Delorean" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="247"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMq-01-m7D" customClass="BFPaperButton">
+                    <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="hIB-0I-Cwj"/>
+                        <constraint firstAttribute="width" constant="255" id="mQy-Ti-gi4"/>
+                    </constraints>
+                    <state key="normal" title="English (English)">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwd-Fo-2sr" customClass="BFPaperButton">
+                    <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="C2F-Q7-bSd"/>
+                        <constraint firstAttribute="width" constant="255" id="VtN-ai-lHs"/>
+                    </constraints>
+                    <state key="normal" title="Tiếng việt (Vietnamese)">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sHF-Sc-gbk" customClass="BFPaperButton">
+                    <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="XyB-IF-3cS"/>
+                        <constraint firstAttribute="width" constant="255" id="nCA-dn-jUH"/>
+                    </constraints>
+                    <state key="normal" title="日本語 (Japanese)">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV1-MJ-uPU">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="qau-8c-UXw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvy-LP-CP9" customClass="BFPaperButton">
+                    <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="BDz-Ei-5c1"/>
+                        <constraint firstAttribute="width" constant="60" id="Zxe-n0-XJN"/>
+                    </constraints>
+                    <state key="normal" title="Close">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fvy-LP-CP9" secondAttribute="bottom" constant="8" id="1rN-mO-UBU"/>
+                <constraint firstItem="DMq-01-m7D" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Oa5-uF-Ldb"/>
+                <constraint firstItem="DMq-01-m7D" firstAttribute="top" secondItem="sHF-Sc-gbk" secondAttribute="bottom" constant="10" id="Yak-LA-8ts"/>
+                <constraint firstItem="fvy-LP-CP9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YdM-jW-nRp"/>
+                <constraint firstItem="sHF-Sc-gbk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZNb-iv-oJe"/>
+                <constraint firstAttribute="trailing" secondItem="gV1-MJ-uPU" secondAttribute="trailing" id="bGk-Jq-fCs"/>
+                <constraint firstItem="iwd-Fo-2sr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bNJ-Ob-4rF"/>
+                <constraint firstItem="iwd-Fo-2sr" firstAttribute="top" secondItem="DMq-01-m7D" secondAttribute="bottom" constant="10" id="bOf-hA-Q0j"/>
+                <constraint firstItem="DMq-01-m7D" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bZz-wR-63W"/>
+                <constraint firstItem="gV1-MJ-uPU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="f75-I4-GJU"/>
+                <constraint firstItem="gV1-MJ-uPU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="s5e-2I-NZy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chooseLanguageLabel" destination="gV1-MJ-uPU" id="Wv2-k5-N7c"/>
+                <outlet property="closeBtn" destination="fvy-LP-CP9" id="SO1-LT-a4v"/>
+                <outlet property="englishBtn" destination="DMq-01-m7D" id="Psd-yv-jnv"/>
+                <outlet property="japaneseBtn" destination="sHF-Sc-gbk" id="Yf2-OK-rvh"/>
+                <outlet property="vietnameseBtn" destination="iwd-Fo-2sr" id="ZjU-OD-rJl"/>
+            </connections>
+            <point key="canvasLocation" x="-56.5" y="124.5"/>
+        </view>
+    </objects>
+</document>

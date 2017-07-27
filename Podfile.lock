@@ -1,0 +1,70 @@
+PODS:
+  - BFPaperButton (2.1.1)
+  - Crashlytics (3.8.2):
+    - Fabric (~> 1.6.3)
+  - CustomIOSAlertView (0.9.5)
+  - Fabric (1.6.8)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - HockeySDK (4.1.1):
+    - HockeySDK/DefaultLib (= 4.1.1)
+  - HockeySDK/DefaultLib (4.1.1)
+  - IQKeyboardManager (4.0.6)
+  - MBProgressHUD (1.0.0)
+  - PureLayout (3.0.2)
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - BFPaperButton
+  - Crashlytics
+  - CustomIOSAlertView (~> 0.9.5)
+  - Fabric
+  - FMDB
+  - FontAwesomeKit
+  - HockeySDK (~> 4.1.1)
+  - IQKeyboardManager
+  - MBProgressHUD (from `https://github.com/jdg/MBProgressHUD.git`)
+  - PureLayout
+  - WYPopoverController
+
+EXTERNAL SOURCES:
+  MBProgressHUD:
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+CHECKOUT OPTIONS:
+  MBProgressHUD:
+    :commit: 6424bb843bd4d3bb7f0b77ce36a175ecae4fd803
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+SPEC CHECKSUMS:
+  BFPaperButton: c76835e789669f64d600dc68934cc60fbb550bb9
+  Crashlytics: 27acca95a01b042a8294291dd6dff27f8f6af6d7
+  CustomIOSAlertView: cc4fa8e36219be3fd5ebcd40789f5b4aaae0f38e
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  HockeySDK: 364679ba00f3447d014dd75cac57e59cc2574318
+  IQKeyboardManager: c52debb1967799ae7addb98eab0cf328083a874f
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+PODFILE CHECKSUM: 2fae07310bb73a67f55d15c74983fac263d865a3
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ConfirmTransactionRecordDeletionView" customModule="Delorean" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="520" height="270"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoI-u7-50a">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="pQw-3d-tyJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Failed to save business system information acquisition" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZ6-KE-QfE">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YYo-OK-TGy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HE-7v-dLf">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="32x-jn-j3D"/>
+                        <constraint firstAttribute="width" constant="120" id="Rlb-d3-Xnh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016/8/25" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFe-Uz-55b">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="EzX-rf-Vp5"/>
+                        <constraint firstAttribute="width" constant="300" id="in4-1K-LJ3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzO-Y6-yns">
+                    <color key="backgroundColor" red="1" green="0.55177217300000003" blue="0.36555289330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2" id="29E-u3-mkA"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCG-l4-wY7" customClass="BFPaperButton">
+                    <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="HfL-BM-4xP"/>
+                        <constraint firstAttribute="height" constant="30" id="h9e-2j-vQN"/>
+                    </constraints>
+                    <state key="normal" title="Yes">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gzO-Y6-yns" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0uO-z1-9mu"/>
+                <constraint firstItem="gzO-Y6-yns" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="36i-BZ-Qad"/>
+                <constraint firstItem="qFe-Uz-55b" firstAttribute="top" secondItem="zZ6-KE-QfE" secondAttribute="bottom" constant="25" id="5qs-g7-nDL"/>
+                <constraint firstAttribute="trailing" secondItem="zZ6-KE-QfE" secondAttribute="trailing" id="DTb-Bf-mr7"/>
+                <constraint firstItem="PoI-u7-50a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Gct-W2-uJW"/>
+                <constraint firstAttribute="bottom" secondItem="bCG-l4-wY7" secondAttribute="bottom" constant="20" id="GdH-Wf-6Yf"/>
+                <constraint firstAttribute="bottom" secondItem="gzO-Y6-yns" secondAttribute="bottom" id="M20-Gt-evz"/>
+                <constraint firstItem="bCG-l4-wY7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ocz-xH-t5T"/>
+                <constraint firstAttribute="trailing" secondItem="PoI-u7-50a" secondAttribute="trailing" id="U8d-zg-woL"/>
+                <constraint firstItem="qFe-Uz-55b" firstAttribute="leading" secondItem="gzO-Y6-yns" secondAttribute="trailing" constant="10" id="XGk-sZ-xkU"/>
+                <constraint firstItem="PoI-u7-50a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="hB2-ud-RzJ"/>
+                <constraint firstItem="zZ6-KE-QfE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ihd-sh-X8Z"/>
+                <constraint firstItem="gzO-Y6-yns" firstAttribute="leading" secondItem="2HE-7v-dLf" secondAttribute="trailing" constant="60" id="jQs-Np-NKq"/>
+                <constraint firstItem="2HE-7v-dLf" firstAttribute="top" secondItem="zZ6-KE-QfE" secondAttribute="bottom" constant="25" id="oho-2r-d8I"/>
+                <constraint firstItem="zZ6-KE-QfE" firstAttribute="top" secondItem="PoI-u7-50a" secondAttribute="bottom" constant="30" id="std-2b-r4P"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="2HE-7v-dLf" id="s8x-zP-3fP"/>
+                <outlet property="dateValueLabel" destination="qFe-Uz-55b" id="Cf0-9S-Qvn"/>
+                <outlet property="messageLabel" destination="zZ6-KE-QfE" id="Iic-H3-aNJ"/>
+                <outlet property="titleLabel" destination="PoI-u7-50a" id="Wv7-Jf-rmF"/>
+                <outlet property="yesBtn" destination="bCG-l4-wY7" id="huk-K3-Zhz"/>
+            </connections>
+            <point key="canvasLocation" x="51" y="255"/>
+        </view>
+    </objects>
+</document>

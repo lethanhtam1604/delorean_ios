@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ConfirmRegisterSettingView" customModule="Delorean" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="450"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoI-u7-50a">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="pQw-3d-tyJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Failed to save business system information acquisition" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZ6-KE-QfE">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YYo-OK-TGy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HE-7v-dLf">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="oPi-l5-ufa"/>
+                        <constraint firstAttribute="height" constant="30" id="xCh-TS-QrY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Akihabara" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFe-Uz-55b">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="rWe-0W-Cip"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWj-RM-pWV">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="zNd-HM-yzF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03-3256-1701" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWg-BS-uUO">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="STb-QS-xT2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Azabu Tax Office" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmT-6P-5K0">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="47v-Nr-nwK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cash-register No." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsi-VT-Rpd">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="TRH-Rd-xr0"/>
+                        <constraint firstAttribute="width" constant="180" id="v6W-ad-r3v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store address" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0P-jN-rFm">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="1Ve-Un-xXF"/>
+                        <constraint firstAttribute="width" constant="180" id="71P-8p-Hc9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Store TEL" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vj3-23-VB2">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="EMp-rw-Ddv"/>
+                        <constraint firstAttribute="height" constant="30" id="Thu-we-Vut"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appropriate tax office" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dw-Ti-gJ1">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="7We-ZV-btn"/>
+                        <constraint firstAttribute="height" constant="30" id="p8m-MN-hX9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tokyo, Chiyoda, Sotokanda 4-6-7, Kandaeito Building 4F" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAX-9h-Nny">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="zhk-5P-Fnq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCG-l4-wY7" customClass="BFPaperButton">
+                    <color key="backgroundColor" red="0.1150472392" green="0.52639908440000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="HfL-BM-4xP"/>
+                        <constraint firstAttribute="height" constant="30" id="h9e-2j-vQN"/>
+                    </constraints>
+                    <state key="normal" title="Yes">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax payment place" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ5-cJ-bAX">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="Gad-fD-7LE"/>
+                        <constraint firstAttribute="height" constant="30" id="fPy-RO-aU6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxM-Yr-XXy">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="x7h-5w-N5Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bsi-VT-Rpd" firstAttribute="top" secondItem="2HE-7v-dLf" secondAttribute="bottom" constant="8" id="0de-0C-HXd"/>
+                <constraint firstItem="1dw-Ti-gJ1" firstAttribute="top" secondItem="vj3-23-VB2" secondAttribute="bottom" constant="8" id="37I-Vm-T96"/>
+                <constraint firstItem="dmT-6P-5K0" firstAttribute="top" secondItem="dWg-BS-uUO" secondAttribute="bottom" constant="8" id="9bP-1g-AhM"/>
+                <constraint firstAttribute="trailing" secondItem="vWj-RM-pWV" secondAttribute="trailing" id="9kz-mH-t4y"/>
+                <constraint firstItem="vWj-RM-pWV" firstAttribute="top" secondItem="qFe-Uz-55b" secondAttribute="bottom" constant="8" id="CHy-ut-GBH"/>
+                <constraint firstAttribute="trailing" secondItem="zZ6-KE-QfE" secondAttribute="trailing" id="DTb-Bf-mr7"/>
+                <constraint firstItem="PoI-u7-50a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Gct-W2-uJW"/>
+                <constraint firstAttribute="bottom" secondItem="bCG-l4-wY7" secondAttribute="bottom" constant="20" id="GdH-Wf-6Yf"/>
+                <constraint firstItem="2HE-7v-dLf" firstAttribute="top" secondItem="zZ6-KE-QfE" secondAttribute="bottom" constant="8" id="HRY-8M-oSq"/>
+                <constraint firstAttribute="trailing" secondItem="vAX-9h-Nny" secondAttribute="trailing" id="KzQ-Sn-AAb"/>
+                <constraint firstItem="g0P-jN-rFm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LCz-fK-KBY"/>
+                <constraint firstAttribute="trailing" secondItem="qFe-Uz-55b" secondAttribute="trailing" id="LJr-h2-7up"/>
+                <constraint firstItem="qFe-Uz-55b" firstAttribute="top" secondItem="zZ6-KE-QfE" secondAttribute="bottom" constant="8" id="NXf-Hl-v8X"/>
+                <constraint firstItem="PxM-Yr-XXy" firstAttribute="top" secondItem="dmT-6P-5K0" secondAttribute="bottom" constant="8" id="NbW-Bl-78s"/>
+                <constraint firstItem="bCG-l4-wY7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ocz-xH-t5T"/>
+                <constraint firstItem="bsi-VT-Rpd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PYS-yq-jK2"/>
+                <constraint firstAttribute="trailing" secondItem="dWg-BS-uUO" secondAttribute="trailing" id="Quo-vb-Ikt"/>
+                <constraint firstItem="vj3-23-VB2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SPZ-4B-bvn"/>
+                <constraint firstItem="vWj-RM-pWV" firstAttribute="leading" secondItem="bsi-VT-Rpd" secondAttribute="trailing" constant="65" id="SUS-Iq-juQ"/>
+                <constraint firstItem="vj3-23-VB2" firstAttribute="top" secondItem="g0P-jN-rFm" secondAttribute="bottom" constant="8" id="TaC-0m-YZq"/>
+                <constraint firstAttribute="trailing" secondItem="PoI-u7-50a" secondAttribute="trailing" id="U8d-zg-woL"/>
+                <constraint firstItem="PxM-Yr-XXy" firstAttribute="leading" secondItem="ZJ5-cJ-bAX" secondAttribute="trailing" constant="65" id="Wqj-xD-dBZ"/>
+                <constraint firstItem="vAX-9h-Nny" firstAttribute="top" secondItem="vWj-RM-pWV" secondAttribute="bottom" constant="8" id="Xgg-GV-V1n"/>
+                <constraint firstItem="ZJ5-cJ-bAX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dfD-my-GbF"/>
+                <constraint firstItem="dmT-6P-5K0" firstAttribute="leading" secondItem="1dw-Ti-gJ1" secondAttribute="trailing" constant="65" id="gFs-kb-Imn"/>
+                <constraint firstItem="PoI-u7-50a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="hB2-ud-RzJ"/>
+                <constraint firstItem="dWg-BS-uUO" firstAttribute="leading" secondItem="vj3-23-VB2" secondAttribute="trailing" constant="65" id="hBn-kS-dfZ"/>
+                <constraint firstItem="dWg-BS-uUO" firstAttribute="top" secondItem="vAX-9h-Nny" secondAttribute="bottom" constant="8" id="idH-MR-Vy6"/>
+                <constraint firstItem="zZ6-KE-QfE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ihd-sh-X8Z"/>
+                <constraint firstAttribute="trailing" secondItem="dmT-6P-5K0" secondAttribute="trailing" id="k2N-qH-r0Z"/>
+                <constraint firstItem="ZJ5-cJ-bAX" firstAttribute="top" secondItem="1dw-Ti-gJ1" secondAttribute="bottom" constant="8" id="pF5-xY-PMP"/>
+                <constraint firstItem="qFe-Uz-55b" firstAttribute="leading" secondItem="2HE-7v-dLf" secondAttribute="trailing" constant="65" id="pIc-Uo-kKp"/>
+                <constraint firstItem="vAX-9h-Nny" firstAttribute="leading" secondItem="g0P-jN-rFm" secondAttribute="trailing" constant="65" id="pIe-co-wYy"/>
+                <constraint firstAttribute="trailing" secondItem="PxM-Yr-XXy" secondAttribute="trailing" id="rrW-gF-d51"/>
+                <constraint firstItem="zZ6-KE-QfE" firstAttribute="top" secondItem="PoI-u7-50a" secondAttribute="bottom" constant="30" id="std-2b-r4P"/>
+                <constraint firstItem="2HE-7v-dLf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ufI-cj-Cvk"/>
+                <constraint firstItem="1dw-Ti-gJ1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wDh-Wx-vSP"/>
+                <constraint firstItem="g0P-jN-rFm" firstAttribute="top" secondItem="bsi-VT-Rpd" secondAttribute="bottom" constant="8" id="y97-9i-jOf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="appropriateTaxOfficeLabel" destination="1dw-Ti-gJ1" id="1b5-1H-EeW"/>
+                <outlet property="appropriateTaxOfficeValueLabel" destination="dmT-6P-5K0" id="BYb-nD-wwF"/>
+                <outlet property="cashRegisterNoLabel" destination="bsi-VT-Rpd" id="uuE-sd-Nrv"/>
+                <outlet property="cashRegisterNoValueLabel" destination="vWj-RM-pWV" id="p22-qK-f3j"/>
+                <outlet property="messageLabel" destination="zZ6-KE-QfE" id="Iic-H3-aNJ"/>
+                <outlet property="storeAddressLabel" destination="g0P-jN-rFm" id="diW-P8-tom"/>
+                <outlet property="storeAddressValueLabel" destination="vAX-9h-Nny" id="pgO-lY-3me"/>
+                <outlet property="storeNameLabel" destination="2HE-7v-dLf" id="8VJ-d5-3D7"/>
+                <outlet property="storeNameValueLabel" destination="qFe-Uz-55b" id="Kmv-aN-9N5"/>
+                <outlet property="storeTelLabel" destination="vj3-23-VB2" id="AlI-GX-DF8"/>
+                <outlet property="storeTelValueLabel" destination="dWg-BS-uUO" id="xuB-8e-67e"/>
+                <outlet property="taxPaymentPlaceLabel" destination="ZJ5-cJ-bAX" id="cLx-Qu-YuE"/>
+                <outlet property="taxPaymentPlaceValueLabel" destination="PxM-Yr-XXy" id="3xh-pV-aBP"/>
+                <outlet property="titleLabel" destination="PoI-u7-50a" id="Wv7-Jf-rmF"/>
+                <outlet property="yesBtn" destination="bCG-l4-wY7" id="huk-K3-Zhz"/>
+            </connections>
+            <point key="canvasLocation" x="57" y="461"/>
+        </view>
+    </objects>
+</document>

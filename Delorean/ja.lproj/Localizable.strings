@@ -1,0 +1,134 @@
+/*
+ Localizable.strings
+ Delorean
+ 
+ Created by Thanh-Tam Le on 9/27/16.
+ Copyright © 2016 Thanh-Tam Le. All rights reserved.
+ */
+
+//-----------menu--------------
+"home" = "デロリアン";
+"settings" = "設定";
+"language" = "言語";
+"about" = "約";
+"rate_and_review" = "評価とクチコミ";
+"text_about" = "- Version: 1.0
+- Developer: Thanh Tam Le - University of Science Ho Chi Minh City
+- Contact us if you have any feedback with email: lethanhtam1604@gmail.com
+- Copyright ©2016 Thanh Tam Le";
+
+//-----------function--------------
+"earphone" = "e☆イヤホン";
+"login" = "Login";
+"menu" = "メニュー";
+"employee_code_for_cash_register" = "Employee code for cash register";
+"normal_cash_register_start" = "Normal cash register start";
+"business_system_information_acquisition" = "Business system information acquisition";
+"setting" = "Setting";
+"tax_free_cash_register_start" = "Tax free cashregister start";
+"delete_transaction_record" = "Delete transaction record";
+"error_message" = "Error message";
+"failed_to_save_business_system_information_acquisition" = "Failed to save business system information acquisition.";
+"last_acquired_time" = "Last acquired time";
+"close" = "閉じる";
+"business_system_information_acquisition" = "Business system information acquisition";
+"business_system_information_acquiring" = "Business system information acquiring";
+"suspend" = "Suspend";
+"ok" = "はい";
+"off" = "Off";
+"choose_language" = "言語を選択";
+"connection" = "Connection";
+"store_register" = "Store register";
+"go_to_menu" = "Go to Menu";
+"cancel_inputting_connection_setting" = "Cancel inputting connection setting";
+"test_connection" = "Test Connection";
+"set_connection" = "Set connection";
+"connection_information" = "Connection information";
+"ng" = "Ng";
+"or" = "Or";
+"store_register_passcode" = "Store register passcode";
+"set_store_register_setting" = "Set store register setting";
+"current_setting" = "Current setting";
+"store_name" = "Store name";
+"cash_register_no" = "Cash-register No.";
+"store_address" = "Store address";
+"store_tel" = "Store TEL";
+"appropriate_tax_office" = "Appropriate tax office";
+"tax_payment_place" = "Tax payment place";
+"yes" = "Yes";
+"confirm_connecion_setting" = "Confirm connection setting";
+"are_you_sure_you_want_to_save_the_following_setting" = "Are you sure you want to save the following setting?";
+"setting_complete" = "Setting complete";
+"setting_haven't_been_completeed_do_you_want_to_complete_it_now" = "Setting haven't been completeed. Do you want to complete it now?";
+"error" = "Error";
+"failed_to_save_following_setting_of_access_point_information" = "Failed to save following setting of access point information.";
+"store_information_match_with_this_passcode_doesn't_exit_or_the_passcode_has_already_used_for_another_store_register" = "Store information match with this passcode doesn't exit or the passcode has already used for another store-register.";
+"confirm_store_register_setting" = "Confirm store-register setting";
+"delete" = "Delete";
+"data_which_is_recorded_before_the_inputted_date_will_be_deleted" = "Data which is recorded before the inputted date will be deleted.";
+"transaction_record_maintenance" = "Transaction record maintenance";
+"date" = "Date";
+"confirm_transaction_record_deletion" = "Confirm transaction record deletion";
+"are_you_sure_you_want_to_delete_the_data_before_this_following_day" = "Are you sure you want to delete the data before the following day?";
+"t_point" = "T Point";
+"give_the_purchased_t_point" = "Give the purchased T point";
+"give_rate" = "Give rate";
+"confirm_t_point_setting" = "Confirm T point setting";
+"is_the_bellow_setting_ok" = "Is the bellow setting OK";
+"save" = "保存";
+
+//product
+"disbursement" = "出金";
+"received_money" = "入金";
+"exchange_currency" = "両替";
+"store" = "設置店舗";
+"register_number" = "レジ番号";
+"person_in_charge" = "担当者名";
+"cash_register" = "レジ";
+"title_pos" = "販売入力";
+"new_transaction" = "新規";
+"cancel" = "中止";
+"number" = "No.";
+"no" = "いいえ";
+"next_screen" = "会計へ";
+"show_final_confirmation_screen" = "会計済";
+"t_point" = "Tポイント対象金額";
+"yen" = "¥";
+"open_drawer" = "ドロアを開く";
+"barcode_manual" = "バーコード入力";
+"total_amount" = "合計";
+"qty" = "点";
+"jan" = "JAN";
+"product" = "内容";
+"price" = "単価";
+"discount" = "値引き";
+"quantity" = "数";
+"sub_total" = "小計";
+"delorean" = "Delorean";
+"are_you_sure_to_cancel_this_transaction" = "この取引を中止し、新しい取引を開始してよろしいですか？";
+"message" = "メッセージ";
+
+//receipt layout
+"receipt_title" = "イヤホン・ヘッドホン専門店";
+"receipt" = "領 収 書";
+"receipt_cashier_operate" = "山田　太郎";
+"receipt_product_name" = "商品名";
+"receipt_unit_price" = "単価";
+"receipt_qty" = "数量";
+"receipt_total_amount" = "合計";
+"receipt_use_point" = "ポイント";
+"receipt_payment" = "請求金額";
+"receipt_received_money" = "お預かり";
+"receipt_detail" = "内訳";
+"receipt_cash" = "現金";
+"receipt_card" = "カード";
+"receipt_change" = "お釣り";
+"receipt_detail_of_your_purchase_is_as_above" = "お買上の明細は上記のとおりです。";
+"receipt_product_price_includes_tax" = "商品価格には消費税等を含みます。";
+"receipt_revenue_stamp" = " 収入 印紙";
+"receipt_please_keep_this_receipt_safe" = "大切に保管して下さい";
+"receipt_please_contact_us_with_in_2_weeks_if_you_have_any_problem" = "初期不良交換は2週間以内に ご連絡をお願い致します。";
+"receipt_tel_number" = "電話番号";
+"receipt_email" = "e-mail";
+"receipt_note" = "商品保証にはこのレシート が必要になります。 保証書とご一緒に保管を お願い致します。";
+"receipt_signature_stamp" = "印";
